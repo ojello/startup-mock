@@ -1,0 +1,80 @@
+#title {
+  background: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+body {
+  font-family: "Montserrat black", sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  margin-top: 70px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+h3 {
+  padding-top: 20px;
+  font-weight: bolder;
+}
+
+/*Pfp Dog Image */
+.pfp {
+  padding: 50px 0px 50px 0px;
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Features Section */
+#features {
+  margin: 0 auto;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.icon-heart,
+.icon-bullseye,
+.icon-check {
+  color: #ef8172;
+}
+
+.icon-heart:hover,
+.icon-bullseye:hover,
+.icon-check:hover {
+  color: #ff4c68;
+}
