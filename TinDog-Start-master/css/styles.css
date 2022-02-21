@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "Montserrat black", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.5;
 }
 
@@ -18,12 +18,22 @@ h1 {
   font-size: 3.5rem;
   line-height: 1.5;
   margin-bottom: 25px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
 h3 {
   padding-top: 20px;
   font-weight: bolder;
+}
+
+p {
+  color: #8f8f8f;
 }
 
 /*Pfp Dog Image */
@@ -43,6 +53,11 @@ h3 {
   font-size: 3rem;
   font-family: "Ubuntu";
   font-weight: bold;
+}
+
+.logo-paw {
+  padding-left: 10px;
+  /* margin-left: 0 50px; */
 }
 
 .nav-item {
@@ -67,14 +82,40 @@ h3 {
   text-align: center;
 }
 
+.feature-box {
+  padding: 5%;
+}
+
 .icon-heart,
 .icon-bullseye,
 .icon-check {
   color: #ef8172;
+  margin-bottom: 0.5rem;
 }
 
 .icon-heart:hover,
 .icon-bullseye:hover,
 .icon-check:hover {
   color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background: #ef8172;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 20%;
+}
+
+#press {
+  background: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
 }
