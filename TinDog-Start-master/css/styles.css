@@ -1,15 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 #title {
   background: #ff4c68;
   color: white;
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
+  position: absolute;
 }
 
 h1 {
@@ -18,16 +24,17 @@ h1 {
   font-size: 3.5rem;
   line-height: 1.5;
   margin-bottom: 25px;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   line-height: 1.5;
-  font-weight: bolder;
+  font-weight: 900;
 }
 h3 {
+  font-family: "Montserrat", sans-serif;
   padding-top: 20px;
   font-weight: bolder;
 }
@@ -36,11 +43,33 @@ p {
   color: #8f8f8f;
 }
 
+/* dog selfie */
+.iPhone {
+  transform: rotate(25d eg);
+  width: 70%;
+  margin-top: 50px;
+  margin-bottom: -60%;
+  right: 30%;
+}
+
+.positioning {
+  position: relative;
+}
+
+/* <!-- Features --> */
+#features {
+  background-color: #fff;
+
+  position: relative;
+
+  /* z-index: 1; */
+}
+
 /*Pfp Dog Image */
-.pfp {
-  padding: 50px 0px 50px 0px;
-  transform: rotate(25deg);
+.profile-pic {
   width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
 }
 
 /* Navigation Bar */
@@ -80,6 +109,9 @@ p {
   margin: 0 auto;
   padding: 100px 0;
   text-align: center;
+  background: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-box {
@@ -104,8 +136,11 @@ p {
 #testimonials {
   background: #ef8172;
   color: #fff;
-  padding: 7% 15%;
   text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
 
 .testimonial-image {
@@ -118,4 +153,23 @@ p {
   background: #ef8172;
   text-align: center;
   padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.card-set {
+  gap: 20px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
