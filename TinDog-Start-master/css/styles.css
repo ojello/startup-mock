@@ -44,32 +44,18 @@ p {
 }
 
 /* dog selfie */
+
+.iPhone-parent {
+  position: relative;
+}
+
 .iPhone {
-  transform: rotate(25d eg);
-  width: 70%;
-  margin-top: 50px;
-  margin-bottom: -60%;
-  right: 30%;
-}
-
-.positioning {
-  position: relative;
-}
-
-/* <!-- Features --> */
-#features {
-  background-color: #fff;
-
-  position: relative;
-
-  /* z-index: 1; */
-}
-
-/*Pfp Dog Image */
-.profile-pic {
+  margin-top: 5%;
   width: 60%;
-  transform: rotate(25deg);
+  transform: rotate(20deg);
   position: absolute;
+  padding-top: 50px;
+  right: 30%;
 }
 
 /* Navigation Bar */
@@ -107,7 +93,7 @@ p {
 /* Features Section */
 #features {
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 7% 15% 7%;
   text-align: center;
   background: #fff;
   position: relative;
@@ -172,4 +158,35 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* media query */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .iPhone {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+#cta {
+  background: #ff4c68;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  line-height: 2;
+  text-align: center;
+  padding: 100px 100px;
+}
+
+#footer {
+  margin: 50px auto 40px;
+  background: #fff;
+  text-align: center;
+}
+
+.b-icon {
+  margin: 0.8%;
 }
